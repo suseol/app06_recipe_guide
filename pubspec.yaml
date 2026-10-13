@@ -1,0 +1,23 @@
+name: app06_recipe_guide
+description: 학생용 레시피 목록 및 상세 실습 프로젝트.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+  flutter: '>=3.32.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: 1.6.0
+  # 플랫폼별 기본 뒤로 가기 아이콘에 필요한 폰트이다.
+  cupertino_icons: 1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 6.0.0
+
+flutter:
+  uses-material-design: true
